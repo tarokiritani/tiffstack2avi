@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'tiffstack2avi',
-  packages = ['tiffstack2avi'], # this must be the same as the name above
+  packages = [], # this must be the same as the name above
   version = '1.0.1',
   description = 'A small python wrapper for ffmpeg',
   author = 'Taro Kiritani',
