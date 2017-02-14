@@ -21,7 +21,7 @@ class getExistingDirectories(QFileDialog):
         self.findChildren(QListView)[0].setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.findChildren(QTreeView)[0].setSelectionMode(QAbstractItemView.ExtendedSelection)
 
-def main():
+def convert():
     qapp = QApplication(sys.argv)
     dlg = getExistingDirectories()
     if dlg.exec_() == QDialog.Accepted:
@@ -29,4 +29,4 @@ def main():
             os.system("ffmpeg -i " + tifdir + "\\frame%d.tif -vcodec ffv1 " +os.path.abspath(tifdir) + ".avi")
 
 if __name__ == "__main__":
-    main()
+     convert()
