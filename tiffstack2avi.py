@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
 This script converts multiple tif sequences into avi files using ffmpeg. You need
