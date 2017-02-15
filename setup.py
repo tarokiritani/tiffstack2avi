@@ -11,15 +11,18 @@ except(IOError, ImportError):
 setup(
   name = 'tiffstack2avi',
   packages = [],
-  version = '1.0.8',
+  version = '1.0.9',
   py_modules = ['tiffstack2avi'],
   description = 'A small python wrapper for ffmpeg',
   author = 'Taro Kiritani',
   author_email = 'taro.kiritani@epfl.ch',
   url = 'https://github.com/tarokiritani/tiffstack2avi',
-  download_url = 'https://github.com/tarokiritani/tiffstack2avi/tarball/1.0.8',
+  download_url = 'https://github.com/tarokiritani/tiffstack2avi/tarball/1.0.9',
   keywords = ['ffmpeg', 'python', 'wrapper'],
-  classifiers = [],
+  classifiers = [
+                 'Programming Language :: Python :: 3.5'
+                 
+                 ],
   license='MIT',
-  long_description=open('docs/README.rst', 'rt').read()
+  long_description=open('README.md', 'rt').read()
 )
