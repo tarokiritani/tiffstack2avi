@@ -14,4 +14,4 @@ You first need to install ffmpeg (https://ffmpeg.org/) on your computer. Then,
     import tiffstack2avi
     tiffstack2avi.convert()
 
-Choose the folders that contain tiff sequences. The tiff files should be named frame%d.tif. It would be great if you could aknowledge my work and cite my paper.
+Choose the folders that contain tiff sequences. The tiff files should be named frame%d.tif. It would be great if you could aknowledge my work and cite my paper (in prep..).
