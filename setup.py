@@ -3,6 +3,7 @@ setup(
   name = 'tiffstack2avi',
   packages = [], # this must be the same as the name above
   version = '1.0.2',
+  py_modules = ['tiffstack2avi']
   description = 'A small python wrapper for ffmpeg',
   author = 'Taro Kiritani',
   author_email = 'taro.kiritani@epfl.ch',
