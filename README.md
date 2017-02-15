@@ -10,6 +10,7 @@ Install
 Usage
 -----
 You first need to install ffmpeg (https://ffmpeg.org/) on your computer. Then,
+
     import tiffstack2avi
     tiffstack2avi.convert()
 
